@@ -1,0 +1,10 @@
+spring:
+  cache:
+    type: redis
+  data:
+    redis:
+      host: ${redisHost}
+      port: ${redisPort}
+
+server:
+  port: 8081
